@@ -1,21 +1,25 @@
-# admin
+# 大学生科技创新基地在线课堂
 
-> A Vue.js project
+> 个人毕设作品，前台页面技术栈(vue+vue-router+axios+element+stylus),后台管理技术栈(php+thinkphp+mysql)。
+> 该仓库为前台页面的内容，由于数据接口未分离出来，需配以后台服务器运行，暂不建议下载运行。有空的话会模拟数据，满足本地化运行的需要。
 
-## Build Setup
+## 介绍
+在线课堂是一套基于浏览器和服务器综合设计的网站系统，在网站系统的基础功能上，结合直播服务，异步请求，弹窗组件等功能，完善出了一套具有复用价值的网站系统。
+在线课堂系统包括了用户系统模块，课程信息模块，直播服务模块，评论系统模块，消息通知模块和后台模块等。基于用户系统模块，登录用户课可使用课程信息服务，观看课程时评，参与课程评论，在教师开通直播课程的同时，可观看课程在线直播，当有最新消息通知，可通过用户中心获得最新消息通知，此外，教师端还可发布和管理消息通知。经综合测试，基本完善以上网站功能，获得较好的用户交互体验，符合预期的设计目标，具有一定的使用价值以及参考价值。
+
+## 运行(接口未分离，不建议运行)
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 运行项目(访问地址:localhost:8080)
 npm run dev
 
-# build for production with minification
+# 打包项目
 npm run build
 
-# build for production and view the bundle analyzer report
+# 打包项目(生成分析报告)
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
